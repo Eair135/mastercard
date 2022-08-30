@@ -1,0 +1,39 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.inside{
+	width: 200px;
+	height: 200px;
+	background-color: transparent;
+	float: left;
+	position: absolute;
+}
+.inside::before{
+	content: "";
+	width: 200px;
+	height: 200px;
+	background-color:#e20d17;
+	float: left;
+	position: absolute;
+	
+	border-radius: 100px;
+}
+.inside::after{
+	content: "";
+	width: 200px;
+	height: 200px;
+	background-color:orange; 
+	float: left;
+	position: absolute;
+	left: 70px;
+	opacity: 70%;
+	border-radius: 100px;
+}
+
+.inside span{
+	float: left;
+	font-size: 30px;
+	position: absolute;
+}
